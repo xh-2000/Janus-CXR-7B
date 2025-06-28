@@ -11,7 +11,7 @@
 确保你已安装 Python 3.10+ 和 pip，并且有20GB显存(最少17GB)，然后执行：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Janus-CXR-WebUI.git
+git clone https://github.com/xh-2000/Janus-CXR-7B.git
 ```
 ```bash
 cd Janus-CXR-WebUI
