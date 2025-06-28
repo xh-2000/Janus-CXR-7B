@@ -1,5 +1,51 @@
-torch>=2.0.0
-transformers>=4.38.0
-streamlit>=1.25.0
-Pillow
-janus @ git+https://github.com/your-org/janus.git  # 替换为实际 janus 库地址
+# 模型与推理
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.49.0
+accelerate==1.4.0
+peft==0.14.0
+trl==0.15.1
+sentence-transformers==4.0.1
+flash-attn==2.7.4.post1
+
+# Web 可视化与服务
+gradio==5.17.1
+streamlit==1.45.1
+fastapi==0.115.8
+uvicorn==0.34.0
+
+# 数据与处理
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.5.0
+matplotlib==3.10.0
+seaborn==0.13.2
+datasets==3.2.0
+evaluate==0.4.3
+
+# 图像处理
+pillow==11.1.0
+opencv-python-headless==4.11.0.86
+
+# 文本处理与评估
+nltk==3.9.1
+rouge-score==0.1.2
+rouge-chinese==1.0.3
+sacrebleu==2.5.1
+regex==2024.11.6
+
+# 辅助工具
+pyyaml==6.0.2
+jsonlines==4.0.0
+aiofiles==23.2.1
+aiohttp==3.11.12
+httpx==0.27.2
+requests==2.32.3
+tqdm==4.67.1
+protobuf==5.29.3
+huggingface-hub==0.29.1
+
+# Tokenizer 等
+tokenizers==0.21.1
+tiktoken==0.9.0
+safetensors==0.5.2
