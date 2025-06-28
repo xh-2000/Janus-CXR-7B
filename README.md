@@ -1,33 +1,78 @@
-# 🩻 智链影语: 基于思维链大模型的X光影像自动诊断系统
-基于思维链推理数据集监督微调的Janus-Pro-7B模型，用于放射学影像临床辅助诊断的医疗多模态大模型
+# 🩻 智链影语：基于思维链大模型的 X 光影像智能诊断系统
 
+**Janus-CXR-7B** 是我们团队自主训练的医学多模态大语言模型，基于 30,000 例 MIMIC-CXR 胸部 X 光影像及其对应报告与结论构建思维链推理数据集，采用 Janus-Pro-7B 作为基础模型，进行监督微调优化而成。
 
-本项目基于多模态大语言模型 **[Janus-CXR-7B](https://huggingface.co/ZYT0316/Janus-CXR-7B)**，通过轻量级的 Web 应用实现 X-Ray 图像的智能分析与诊断，具备中英文思维链生成、医学专业翻译等功能。
+本项目提供一个轻量级 Web 应用，将 Janus-CXR-7B 部署于前端界面，实现以下功能：
+
+- 🧠 多轮中英文思维链生成  
+- 📜 医学放射学报告自动撰写  
+- 🗣️ 医学术语中英互译  
+- 🩺 智能诊断结论生成与病灶分类辅助  
 
 ---
 
 ## 📦 安装依赖
 
-确保你已安装 Python 3.10+ 和 pip，并且有20GB显存(最少17GB)，然后执行：
+确保你已安装 Python 3.10+ 和 Conda，并且拥有至少 17GB 显存（推荐 20GB）。
 
+
+### 克隆项目代码
 ```bash
 git clone https://github.com/xh-2000/Janus-CXR-7B.git
 ```
+
+### 进入项目目录
 ```bash
-cd Janus-CXR-WebUI
+cd Janus-CXR-7B
 ```
+
+### 创建 Conda 虚拟环境
 ```bash
-conda create -n Janus-CXR-7B python=3.10
+conda create -n Janus-CXR-7B python=3.10 -y
 ```
+
+```bash
+conda activate Janus-CXR-7B
+```
+
+### 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
+
 ---
 
-## 模型下载
-**[Janus-CXR-7B](https://huggingface.co/ZYT0316/Janus-CXR-7B)**
+## 💾 下载模型权重（手动）
+
+请前往 Hugging Face 模型仓库下载我们训练的模型权重：
+
+👉 模型地址：https://huggingface.co/ZYT0316/Janus-CXR-7B
+
+下载后，将模型权重解压，并放置到以下目录（若无请手动创建）：
+
+```bash
+./checkpoints/Janus-CXR-7B/
+```
 
 ## 🚀 启动应用
+
+使用 Streamlit 启动 Web 前端应用：
 ```bash
 streamlit run app.py
 ```
+
+## 📫 联系我们
+
+如需合作、模型授权或进一步交流，欢迎联系：
+
+📧 邮箱：zyt20000316@mail.nwpu.edu.cn
+
+🧑‍💻 项目作者：智链影语团队
+
+🌐 GitHub: https://github.com/xh-2000
+
+## 📜 许可协议
+本项目采用 MIT License 开源，代码部分可自由使用和修改。
+模型权重部分仅限学术研究用途，禁止任何形式的商业化应用，如需商用，请联系作者获得授权。
+
+版权所有 © 2025 智链影语团队. 保留所有权利。
