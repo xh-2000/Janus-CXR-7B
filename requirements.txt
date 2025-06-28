@@ -1,0 +1,5 @@
+torch>=2.0.0
+transformers>=4.38.0
+streamlit>=1.25.0
+Pillow
+janus @ git+https://github.com/your-org/janus.git  # 替换为实际 janus 库地址
