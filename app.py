@@ -141,7 +141,7 @@ left_col, center_col, right_col = st.columns([1.5, 1, 2])
 
 with left_col:
     st.markdown("#### 📂 模型加载")
-    model_path = st.text_input("🔍 模型路径", value="ZYT0316/Janus-CXR-7B")
+    model_path = st.text_input("🔍 模型路径", value="./checkpoints/Janus-CXR-7B/")
     if st.button("🚀 加载模型"):
         with st.spinner("加载中..."):
             try:
