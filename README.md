@@ -41,7 +41,7 @@ pip install -e .
 ```
 
 ```bash
-pip install -r requirements_1.txt
+pip install -r requirements.txt
 ```
 
 ---
