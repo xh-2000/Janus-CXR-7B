@@ -37,6 +37,10 @@ conda activate Janus-CXR-7B
 
 ### 安装依赖
 ```bash
+pip install -e .
+```
+
+```bash
 pip install -r requirements_1.txt
 ```
 
