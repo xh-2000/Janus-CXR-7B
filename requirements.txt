@@ -7,6 +7,7 @@ peft==0.14.0
 trl==0.15.1
 sentence-transformers==4.0.1
 flash-attn==2.7.4.post1
+janus==2.0.0
 
 # Web 可视化与服务
 gradio==5.17.1
