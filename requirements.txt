@@ -21,8 +21,8 @@ tiktoken==0.9.0               # 覆盖旧版本 0.5.2
 safetensors==0.5.2
 
 # ========== 可视化与服务 ==========
-gradio==5.17.1                # 覆盖旧版 gradio==3.48.0
-gradio-client==0.6.1
+gradio==5.17.1
+gradio-client==1.7.1
 streamlit==1.45.1
 fastapi==0.115.8
 uvicorn==0.34.0
