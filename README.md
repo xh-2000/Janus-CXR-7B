@@ -24,6 +24,9 @@ pip install -r requirements.txt
 ```
 ---
 
+## 模型下载
+**[Janus-CXR-7B](https://huggingface.co/ZYT0316/Janus-CXR-7B)**
+
 ## 🚀 启动应用
 ```bash
 streamlit run app.py
