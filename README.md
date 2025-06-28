@@ -8,7 +8,7 @@
 
 ## 📦 安装依赖
 
-确保你已安装 Python 3.10+ 和 pip，然后执行：
+确保你已安装 Python 3.10+ 和 pip，并且有20GB显存(最少17GB)，然后执行：
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Janus-CXR-WebUI.git
