@@ -12,11 +12,19 @@
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Janus-CXR-WebUI.git
+```
+```bash
 cd Janus-CXR-WebUI
+```
+```bash
+conda create -n Janus-CXR-7B python=3.10
+```
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 启动应用
-
+```bash
 streamlit run app.py
+```
